@@ -1,0 +1,112 @@
+#header-nav{
+width:100%;
+height:80px;
+background-color:rgb(153, 0, 0);
+color:white;
+position:relative;
+
+}
+
+.title-header{
+  font-size:1.8em;
+  color:rgb(255, 252, 252);
+}
+
+
+#menu-div{
+  margin-top:25px;
+  
+  margin-left:auto;
+  margin-right:auto;
+  margin-bottom:25px;
+  width:98%;
+  background-color:gray;
+  height:1000px;
+  overflow:hidden;
+  text-align:center;
+  
+ 
+  
+
+
+}
+
+h3.menu-text{
+  font-size:20px;
+}
+
+
+.menu-text{
+ color: rgb(2, 2, 2);
+ text-align:center;
+ margin-top:15px;
+ 
+ 
+ 
+ 
+}
+
+
+
+
+
+
+
+
+
+
+
+/** XS **/
+@media (max-width:576px){
+  #menu-div{
+    margin-bottom:60px;
+    width:75%;
+
+
+  }
+  #navigation-drop{
+    background-color:rgb(102, 102, 102);
+    margin-top:0px;
+   
+  }
+  
+  #About-link{
+    text-align:center;
+    margin:0;
+    padding-top:0;
+    padding-bottom:0;
+  }
+
+  .navbar-collapse{
+    padding:0;
+  }
+ #header-nav{
+ 
+ }
+ #navbar-nav{
+  text-align:center;
+ }
+ .nav-link{
+  padding:0;
+ }
+
+ hr{
+  margin:0;
+ }
+
+ .navbar-collapse{
+  text-align:center;
+ }
+ 
+}
+
+
+/** Medium + Small **/
+@media(min-width:576px){
+ .navbar-nav{
+  
+ }
+ #grey-container{
+ 
+ }
+}
