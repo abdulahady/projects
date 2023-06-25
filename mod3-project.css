@@ -56,8 +56,8 @@ h3.menu-text{
 
 
 
-/** XS **/
-@media (max-width:576px){
+/** S **/
+@media (max-width:767px){
   #menu-div{
     margin-bottom:60px;
     width:75%;
